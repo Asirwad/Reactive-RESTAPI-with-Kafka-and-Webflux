@@ -24,6 +24,6 @@ public class WikiMediaStreamConsumer {
                 .uri("/stream/recentchange")
                 .retrieve()
                 .bodyToFlux(String.class)
-                .subscribe(producer::sendMessage);
+                .subscribe(System.out::println);
     }
 }
