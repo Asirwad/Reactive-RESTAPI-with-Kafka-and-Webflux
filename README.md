@@ -46,8 +46,8 @@ $ bin/kafka-server-start.sh config/server.properties
 <summary>Clone and Run</summary>
 
 ```bash
-$ git clone https://github.com/ali-bouali/apache-kafka-with-spring-boot-reactive
-$ cd apache-kafka-with-spring-boot-reactive
+$ git clone https://github.com/Asirwad/Reactive-RESTAPI-with-Kafka-and-Webflux
+$ cd Reactive-RESTAPI-with-Kafka-and-Webflux
 $ ./mvnw spring-boot:run
 ```
 </details>
