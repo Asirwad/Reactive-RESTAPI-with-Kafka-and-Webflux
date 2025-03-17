@@ -190,4 +190,4 @@ public Consumer<Flux<ConsumerRecord<String, String>>> dynamoDbSaver() {
 **⚠️ Serialization Errors**
 - Validate message formats
 - Check key/value serializer configurations
-</details>
+</details> 
